@@ -17,6 +17,6 @@ public class PinCode {
     private String status;
 
     @JsonProperty("PostOffice")
-    List<PostOfficeResponse> postOfficeResponse;
+    private List<PostOfficeResponse> postOfficeResponse;
 
 }
